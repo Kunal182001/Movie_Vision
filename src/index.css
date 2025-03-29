@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import '@fontsource/manrope';
+
+
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #222;
+}
+/* Hide scrollbar for Webkit (Chrome, Safari) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+
+
+  
