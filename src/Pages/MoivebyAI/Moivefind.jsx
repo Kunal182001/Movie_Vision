@@ -12,7 +12,7 @@ const MovieFind = () => {
   const [error, seterror] = useState(false);
   const [errorcontent, seterrorcontent] = useState("");
   const [trailerKey, setTrailerKey] = useState(null);
-
+  const server_api = import.meta.env.VITE_SERVER_API;
 
 
   const questions = [
@@ -38,7 +38,7 @@ const MovieFind = () => {
   const fetchMovieRecommendations = async () => {
     setLoading(true);
 
-    const openAIResponse = await fetch("http://localhost:5000/api/AI/generateQuery", {
+    const openAIResponse = await fetch(server_api+"/api/AI/generateQuery", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ answers }),
