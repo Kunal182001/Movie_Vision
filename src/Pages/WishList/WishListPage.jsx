@@ -15,11 +15,7 @@ const WishListPage = () => {
     const history = useNavigate();
     const context = useContext(Mycontext);
 
-    useEffect(()=>{
-        if(!context.isLogin){
-            history('/signin')
-        }
-    },[context.isLogin])
+   
 
     useEffect(() => {
         fetchData(`/api/Wishlist/?userid=${id}`)
