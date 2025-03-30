@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import logo from "../../assets/logo.webp"
 import { NavLink, useNavigate } from 'react-router';
-import Mycontext from '../../Pages/Mycontext/Mycontext';
+import Mycontext from '../../Pages/Mycontext/MyContext.js';
 import { IoMdHome } from "react-icons/io";
 import { IoPerson } from "react-icons/io5";
 import { MdFavorite } from "react-icons/md";
