@@ -4,7 +4,7 @@ import { NavLink, useNavigate, useParams } from 'react-router-dom';
 import { RxCross1 } from "react-icons/rx";
 import CircularProgress from '@mui/material/CircularProgress';
 import { motion } from "framer-motion";
-import Mycontext from '../Mycontext/Mycontext';
+import Mycontext from '../../Pages/Mycontext/MyContext.js';
 
 
 

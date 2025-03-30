@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { fetchData, putData } from '../../Components/Admin/api';
 import Dialog from '@mui/material/Dialog';
 import TextField from '@mui/material/TextField';
-import Mycontext from '../Mycontext/Mycontext';
+import Mycontext from '../../Pages/Mycontext/MyContext.js';
 import CircularProgress from '@mui/material/CircularProgress';
 
 const Profile = () => {

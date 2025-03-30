@@ -3,7 +3,7 @@ import { FaHeart } from "react-icons/fa6";
 import { NavLink, useLocation, useNavigate, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import CircularProgress from '@mui/material/CircularProgress';
-import Mycontext from "../Mycontext/Mycontext";
+import Mycontext from '../../Pages/Mycontext/MyContext.js';
 import { CartData, deleteData, fetchData } from "../../Components/Admin/api";
 
 

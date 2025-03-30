@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react'
-import Mycontext from '../Mycontext/Mycontext';
+import Mycontext from '../../Pages/Mycontext/MyContext.js';
 import { NavLink, useNavigate, useParams } from 'react-router';
 import { motion} from "framer-motion";
 import MoiveCard from '../../Components/MoiveCard/MoiveCard';
